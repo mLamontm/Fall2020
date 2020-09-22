@@ -1,3 +1,22 @@
 body {
   background-color: cyan;
 }
+a:hover {
+  color: white;
+}
+.container{
+  width: 100%;
+  height: auto;
+  background: #007bbf;
+
+}
+.box{
+  width: 120px;
+  height: 60px;
+  background: white;
+  margin: 20px;
+}
+h1 {
+  text-align: center;
+  font-size: XXX-large;
+}
