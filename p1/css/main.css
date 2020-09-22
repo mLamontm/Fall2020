@@ -1,22 +1,16 @@
 body {
-  background-color: cyan;
+  background-color: black;
 }
+
 a:hover {
   color: white;
 }
-.container{
-  width: 100%;
-  height: auto;
-  background: #007bbf;
 
-}
-.box{
-  width: 120px;
-  height: 60px;
-  background: white;
-  margin: 20px;
-}
 h1 {
+  color: white;
   text-align: center;
   font-size: XXX-large;
+  font-family: good-times, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
