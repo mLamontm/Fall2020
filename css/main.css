@@ -1,22 +1,30 @@
-html {
-  font-size: 16px;
-}
 body {
-  background-color: cyan;
-}
-h1 {
-  font-size: 4rem;
-}
-a:link, a:visited {
-  color: black;
-}
-li:hover, a:hover {
-  color: white;
-}
-li {
-  font-size: 2rem;
+  background-color: LightBlue;
 }
 
-img {
-  max-width: 100%;
+a:hover {
+  color: white;
+}
+
+h1 {
+  font-family: oxtail, serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 40px
+}
+
+p, li {
+  font-family: oxtail, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px
+}
+
+ul {
+  color: LightSeaGreen;
+  font-family: oxtail, serif;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 25px
 }
