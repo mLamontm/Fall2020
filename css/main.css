@@ -1,0 +1,22 @@
+html {
+  font-size: 16px;
+}
+body {
+  background-color: cyan;
+}
+h1 {
+  font-size: 4rem;
+}
+a:link, a:visited {
+  color: black;
+}
+li:hover, a:hover {
+  color: white;
+}
+li {
+  font-size: 2rem;
+}
+
+img {
+  max-width: 100%;
+}
