@@ -28,3 +28,33 @@ ul {
   font-style: normal;
   font-size: 25px
 }
+
+header {
+  width: 20vw;
+  margin: 25px auto;
+  background-color: azure;
+}
+main {
+  width: 75vw;
+  margin: 25px auto;
+  display: flow-root;
+}
+.col {
+  width: 50%;
+  float: left;
+}
+@media screen and (max-width: 500px) {
+  .col {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  header {
+    width: 90vw;
+  }
+  main {
+    width: 90vw;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
