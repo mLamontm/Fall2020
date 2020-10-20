@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+main {
+margin: 0;
+}
+.shape2, .shape4 {
+  width: 50px;
+  height: 100px;
+  background-color: yellowgreen;
+  margin: -10px;
+  float: left;
+  opacity: 70%;
+}
+.shape1 {
+  width: 50px;
+  height: 100px;
+  background-color: turquoise;
+  margin: -20px;
+  float: left;
+  opacity: 70%;
+  border-radius: 30%
+}
+.shape2 {
+  background-color: yellowgreen;
+}
+.shape3 {
+  width: 200px;
+  height: 200px;
+  background-color: lightpink;
+  margin: -35px;
+  float: left;
+  opacity: 50%;
+  border-radius: 30%
+}
+.shape4 {
+  background-color: skyblue;
+}
