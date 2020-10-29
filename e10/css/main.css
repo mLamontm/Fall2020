@@ -25,43 +25,32 @@ body {
   background-color: #333333;
 }
 
-
-.header {
-  width: 900px;
-  background-color: slateblue;
-  padding: 50px;
+.container {
+  width: 1000px;
+  background-color: blue;
   display: flow-root;
-  margin-left: auto;
-  margin-right: auto;
 }
-.column-left {
-  background-color: red;
-  margin: 25px;
-  width: 300px;
-  height: 700px;
+.head, .footer {
+  background-color: slateblue;
+  width: 1000px;
+  height: 100px;
+  float: left;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.subhead {
+  background-color: slateblue;
+  width: 1000px;
+  height: 50px;
   float: left;
 }
-.column-center {
-  background-color: red;
-  margin: 25px;
+.column {
+  background-color: slateblue;
   width: 300px;
-  height: 700px;
+  height: 600px;
   float: left;
-}
-.column-right {
-  background-color: red;
-  margin: 25px;
-  width: 300px;
-  height: 700px;
-  display:flow-root;
-}
-.footer {
-  width: 900px;
-  background-color: red;
-  padding: 50px;
-  clear: both;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 50px;
+  margin-right: 20px;
 }
 
 .header2 {
